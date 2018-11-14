@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nasa App</title>
+		<meta charset = "utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel= "stylesheet" type="text/css" href = "nasaApp.css">
+
+	</head>
+	<body>
+		<input type="checkbox" id ="menuToggle">
+		<label for="menuToggle" class ="menu-icon"> &#9776;</label>
+		<header>
+			<div id ="brand">Our Solar System</div>
+		</header>
+		<nav class ="menu">
+			<ul> 
+				<li><a id = "mercury" href ="#">Mercury</a></li>
+				<li><a id = "venus" href ="#">Venus</a></li>
+				<li><a id = "earth" href ="#">Earth</a></li>
+				<li><a id = "mars" href ="#">Mars</a></li>
+				<li><a id = "jupiter" href ="#">Jupiter</a></li>
+				<li><a id = "saturn" href ="#">Saturn</a></li>
+				<li><a id = "uranus" href ="#">Uranus</a></li>
+				<li><a id = "neptune" href ="#">Neptune</a></li>
+			</ul>
+		</nav>
+		<div class = "imgWrap">
+			<h1 id = "title"></h1>
+			<img id = "mainImage">
+		</div>
+		<div class = "textWrap">
+			<h2><a href = "#">Info</a></h2> 
+			<p id = "textArea"></p>
+			<p class ="learn_More">Learn more about <span id = "currentPlanet"><b></b></span> here.</p>
+		</div>
+		<script src = nasaApp.js></script>
+	</body>
+</html>
